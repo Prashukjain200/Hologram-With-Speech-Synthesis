@@ -21,7 +21,6 @@ encoder.load_model(Path("saved_models/default/encoder.pt"))
 # synthesizer = Synthesizer(project_name / Path("synthetizer/models/pretrained.pt"))
 synthesizer = Synthesizer("synthesizer/models/pretrained.pt")
 vocoder.load_model("saved_models/default/vocoder.pt")
-print("Hello")
 
 SAMPLE_RATE = 22050
 
